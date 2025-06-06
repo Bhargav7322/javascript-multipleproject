@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Count Application</title>
+    <link rel="stylesheet" href="charactercount.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Live Character Count</h2>
+      <textarea
+        id="textarea"
+        name="textarea"
+        cols="30"
+        rows="10"
+        placeholder="Type your text here..."
+        onKeyup="countingCharacters()"
+      ></textarea>
+      <p>
+        Total Characteres you typed including space:
+        <span class="counter">0</span>
+      </p>
+    </div>
+
+    <script src="charactercount.js"></script>
+  </body>
+</html>
