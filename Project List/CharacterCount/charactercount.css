@@ -16,7 +16,7 @@
 
      .container{
         width: 400px;
-        height: 40px;
+        padding: 40px;
         background-color: #34495E;
         display: flex;
         flex-direction: column;
