@@ -11,6 +11,7 @@ body {
   font-family: serif;
   height: 100vh;
   background-color: #7c3af8;
+  flex-wrap: wrap;
 }
 .button {
   position: relative;
@@ -24,9 +25,9 @@ body {
   border-radius: 4px;
   transition: 0.5s;
 }
-.button:hover {
+/* .button:hover {
   letter-spacing: 0.1rem;
-}
+} */
 #newsLetter {
   position: fixed;
   top: -100%;
